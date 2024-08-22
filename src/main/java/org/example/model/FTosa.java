@@ -16,4 +16,8 @@ public class FTosa extends Funcionario{
     public void setQtdDiasTrabalhados(int qtdDiasTrabalhados) {
         this.qtdDiasTrabalhados = qtdDiasTrabalhados;
     }
+
+    public boolean tosar(Pet p){
+        return true;
+    }
 }
