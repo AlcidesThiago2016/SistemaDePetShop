@@ -1,16 +1,17 @@
 package org.example.model;
 
+import java.util.ArrayList;
+
 public class Cliente {
     private String nome;
     private int idade;
     private String cpf;
-    private Pet p;
+    private ArrayList<Pet> pets;
 
-    public Cliente(String nome, int idade, String cpf, Pet p) {
+    public Cliente(String nome, int idade, String cpf) {
         this.nome = nome;
         this.idade = idade;
         this.cpf = cpf;
-        this.p = p;
     }
 
     public String getNome() {
