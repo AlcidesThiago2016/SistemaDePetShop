@@ -6,12 +6,13 @@ public class Cliente {
     private String nome;
     private int idade;
     private String cpf;
-    private ArrayList<Pet> pets;
+    private Pet p;
 
-    public Cliente(String nome, int idade, String cpf) {
+    public Cliente(String nome, int idade, String cpf, Pet p) {
         this.nome = nome;
         this.idade = idade;
         this.cpf = cpf;
+        this.p = null;
     }
 
     public String getNome() {
